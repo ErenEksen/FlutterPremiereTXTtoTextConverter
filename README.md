@@ -1,16 +1,26 @@
-# premiere_txt_to_text_converter
+When you want to export the subtitles you made on Adobe Premiere Pro as TXT, the file that gives you is not a normal text file. To avoid this, you can use this program.
+Also this program will delete blank and duplicated lines.
 
-A new Flutter project.
+This is the remake veresion of converter that written via Flutter and Dart 
 
-## Getting Started
+![CleanShot 2024-05-18 at 16 34 32](https://github.com/ErenEksen/FlutterPremiereTXTtoTextConverter/assets/97560144/0994c6db-85d6-479b-8fd1-17d32e727ff9)
+![284070258-c7e2f2a6-86a4-401a-8922-3a93ca5e1ae4](https://github.com/ErenEksen/FlutterPremiereTXTtoTextConverter/assets/97560144/ebc0096e-96f2-4f07-adf0-b7d1a29f5536)
+![284070327-eba5cb43-b372-4641-a6a8-8793eba8c562](https://github.com/ErenEksen/FlutterPremiereTXTtoTextConverter/assets/97560144/eb0662d8-cfe5-49ca-9f35-144c4dfc1f21)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔨 To Compile it Yourself!
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter build macos
+#or
+flutter build windows
+```
+Dependencies to compile:
+- Flutter
+- Xcode (for macos)
+- Visual Studio Appchain for C++ (For windows)
+
+
+
+
