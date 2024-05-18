@@ -1,10 +1,25 @@
 // ignore_for_file: curly_braces_in_flow_control_structures
-
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:window_manager/window_manager.dart';
 import 'package:premiere_txt_to_text_converter/background.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await windowManager.ensureInitialized();
+  WindowOptions windowOptions = const WindowOptions(
+    size: Size(285, 230),
+    center: true,
+    backgroundColor: Colors.transparent,
+    skipTaskbar: false,
+    title: "Premiere Txt to Text Converter"
+  );
+  windowManager.waitUntilReadyToShow(windowOptions, () async {
+    await windowManager.show();
+    await windowManager.focus();
+  });
+  
+
   runApp(const MyApp());
 }
 
